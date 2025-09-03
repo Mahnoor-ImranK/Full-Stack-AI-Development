@@ -1,7 +1,7 @@
 import numpy as np
 
 investment, growth_rate, startup_age = np.genfromtxt(
-    'G:\FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer\DataSetForPractice\startup_growth_investment_data.csv',
+    'DataSets\startup_growth_investment_data.csv',
     delimiter=',',
     usecols=(1, 2, 3),
     unpack=True,

@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv('G:/FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer/DataSetForPractice/startup_growth_investment_data.csv')
+df = pd.read_csv('DataSets\startup_growth_investment_data.csv')
 
 print(df.dtypes)
 

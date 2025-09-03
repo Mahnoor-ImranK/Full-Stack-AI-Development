@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('G:\\FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer\\DataSetForPractice\\startup_growth_investment_data.csv')
+df = pd.read_csv('DataSets\startup_growth_investment_data.csv')
 
 print(df)
 print("df - data types:\n", df.dtypes)
@@ -32,7 +32,7 @@ print("Slice of columns with .loc:\n", df.loc[:1, 'Industry':'Growth Rate (%)'])
 print("Conditional row & col selection:\n", df.loc[df['Country'] == 'USA', 'Industry':'Growth Rate (%)'])
 
 df_index_col = pd.read_csv(
-    'G:\\FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer\\DataSetForPractice\\startup_growth_investment_data.csv',
+    'DataSets\startup_growth_investment_data.csv',
     index_col='Startup Name'
 )
 
