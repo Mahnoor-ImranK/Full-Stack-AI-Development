@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv('G:/FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer/DataSetForPractice/FastFoodRestaurants.csv')
+df = pd.read_csv('DataSets\\FastFoodRestaurants.csv')
 
 print(df.dtypes)
 
@@ -48,7 +48,13 @@ plt.title('Restaurant Count by City')
 plt.show()
 
 # Pivot and Heatmap: Count of restaurants by city and province
-glue = dffilter.pivot_table(index="city", columns="province", values="name", aggfunc='count')
+glue = dffilter.pivot_table(
+    index="city",
+    columns="province",
+    values="name",
+    aggfunc='count'
+).fillna(0).astype(int)
+
 sns.heatmap(glue, annot=True, fmt="d", cmap="YlOrRd")
 plt.title('Restaurant Count by City and Province')
 plt.show()

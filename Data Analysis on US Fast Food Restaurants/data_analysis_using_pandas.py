@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('G:\\FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer\\DataSetForPractice\\FastFoodRestaurants.csv')
+df = pd.read_csv('DataSets\FastFoodRestaurants.csv')
 
 print(df)
 print("df - data types:\n", df.dtypes)
@@ -32,7 +32,7 @@ print("Slice of columns with .loc:\n", df.loc[:1, 'city':'longitude'])
 print("Conditional row & col selection:\n", df.loc[df['province'] == 'CA', 'city':'longitude'])
 
 df_index_col = pd.read_csv(
-    'G:\\FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer\\DataSetForPractice\\FastFoodRestaurants.csv',
+    'DataSets\FastFoodRestaurants.csv',
     index_col='address'
 )
 

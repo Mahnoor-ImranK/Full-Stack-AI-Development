@@ -2,7 +2,7 @@ import numpy as np
 
 # Load datasets
 ids, price, zip_code, house_size = np.genfromtxt(
-    'G:\FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer-main\FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer-main\DataSetForPractice\RealEstate-USA.csv',
+    'DataSets\RealEstate-USA.csv',
     delimiter=',',
     usecols=(0,2,9,10),
     unpack=True,

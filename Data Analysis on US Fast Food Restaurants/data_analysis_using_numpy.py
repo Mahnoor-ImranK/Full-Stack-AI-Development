@@ -1,7 +1,7 @@
 import numpy as np
 
 lat, long, pcode = np.genfromtxt(
-    'G:\FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer-main\FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer-main\DataSetForPractice\FastFoodRestaurants.csv',
+    'DataSets\FastFoodRestaurants.csv',
     delimiter = ',',
     usecols = (4,5,7),
     unpack = True,
