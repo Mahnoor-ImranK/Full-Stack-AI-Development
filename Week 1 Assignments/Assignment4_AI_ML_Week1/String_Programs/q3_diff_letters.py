@@ -1,0 +1,6 @@
+    # Letters in string1 but not in string2 (symmetric difference complement)
+    s1 = input('String 1: ')
+s2 = input('String 2: ')
+set1=set(s1)
+set2=set(s2)
+print(sorted(list((set1|set2)-(set1&set2))))
