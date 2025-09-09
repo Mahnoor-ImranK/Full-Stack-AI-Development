@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 
 #load dataset
 col_names = ['age', 'sex', 'bp', 'cholesterol', 'na_to_k', 'drug']
-df = pd.read_csv('DataSets\go_decision_data.csv', header=1, names=col_names)
+df = pd.read_csv(r'DataSets\drug200.csv', header=1, names=col_names)
 
 # Encode categorical variables
 le_sex = LabelEncoder()
