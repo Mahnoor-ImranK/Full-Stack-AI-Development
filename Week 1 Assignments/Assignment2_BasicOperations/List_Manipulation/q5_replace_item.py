@@ -1,4 +1,4 @@
-# Q5: Replace item if found
+#Replace item if found
 lst = ['apple','banana','cherry']
 old = 'banana'
 new = 'grapes'

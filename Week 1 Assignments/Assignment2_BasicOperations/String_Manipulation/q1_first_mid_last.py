@@ -1,4 +1,4 @@
-# Q1: Create new string from first, middle, last character
+#Create new string from first, middle, last character
 s = input("Enter a string: ")
 if len(s) >= 3:
     mid = len(s)//2

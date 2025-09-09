@@ -1,4 +1,4 @@
-# Q4: Print primes up to n
+#Print primes up to n
 n = int(input("Enter n: "))
 for num in range(2, n+1):
     is_prime = True

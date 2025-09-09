@@ -1,3 +1,3 @@
-# Q3: Reverse string
+#Reverse string
 s = input("Enter a string: ")
 print(s[::-1])

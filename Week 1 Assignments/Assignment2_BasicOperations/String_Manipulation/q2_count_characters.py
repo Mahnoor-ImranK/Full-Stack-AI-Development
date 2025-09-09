@@ -1,4 +1,4 @@
-# Q2: Count occurrences of all characters
+#Count occurrences of all characters
 s = input("Enter a string: ")
 counts = {}
 for ch in s:

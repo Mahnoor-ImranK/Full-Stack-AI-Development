@@ -1,2 +1,2 @@
-    words=input('Enter words: ').split()
+words=input('Enter words: ').split()
 print(max(words, key=len))

@@ -1,4 +1,4 @@
-# Q5: Remove special symbols/punctuation
+#Remove special symbols/punctuation
 import string
 s = input("Enter a string: ")
 allowed = set(string.ascii_letters + string.digits + ' ')

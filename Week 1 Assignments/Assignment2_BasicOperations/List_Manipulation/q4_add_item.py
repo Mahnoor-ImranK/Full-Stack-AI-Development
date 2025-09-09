@@ -1,4 +1,4 @@
-# Q4: Add new item after specified item
+#Add new item after specified item
 lst = ['apple','banana','cherry']
 target = 'banana'
 new = 'mango'

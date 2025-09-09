@@ -1,4 +1,4 @@
-    # Check amicable numbers
+#Check amicable numbers
 import math
 
 def sum_proper(n):

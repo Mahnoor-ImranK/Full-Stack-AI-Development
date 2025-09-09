@@ -1,4 +1,4 @@
-    # Perfect squares in range whose sum of digits < 10
+#Perfect squares in range whose sum of digits < 10
 start=int(input('start: ')); end=int(input('end: '))
 res=[]
 import math
