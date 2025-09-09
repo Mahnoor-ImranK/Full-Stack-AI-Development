@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 
 #load dataset
 col_names = ['age', 'experience', 'rank', 'nationality', 'go']
-df = pd.read_csv('G:\FULLSTACK-AI-BOOTCAMP-B2-MonTOFri-7TO9-PM-Explorer\DecisionTrees\go_decision_data.csv', header=1, names=col_names)
+df = pd.read_csv('DataSets\go_decision_data.csv', header=1, names=col_names)
 
 #encode
 le_nationality = LabelEncoder()
