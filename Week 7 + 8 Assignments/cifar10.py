@@ -91,6 +91,6 @@ print('y_test[:7]:', y_test[:7])
 y_pred = cnn.predict(x_test)
 y_pred_classes = [np.argmax(element) for element in y_pred]
 
-print('y_pred_classes[:7]:', y_pred_classes[:7])
+print('y_pred_classes[:7]:', y_pred[:7])
 
 print('Classification Report:\n', classification_report(y_test, y_pred_classes))
