@@ -30,7 +30,7 @@ for name, model in clustering_models.items():
     
     cluster_results.append([name, ari, sil])
 
-# 4. Show summary
+#summary
 df_cluster_results = pd.DataFrame(cluster_results, columns=["Model", "ARI", "Silhouette"])
 print("\n=== Clustering Summary ===")
 print(df_cluster_results)
